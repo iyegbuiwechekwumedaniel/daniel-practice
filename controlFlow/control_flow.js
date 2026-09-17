@@ -51,3 +51,18 @@ let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticate
 
 console.log("Authentication Status:", authenticationStatus);
 
+let personsRole = "employee"
+let accessRate;
+
+if (personsRole === "employee") {
+    accessRate = "Dietary Services";
+} else if (personsRole === "enrolledMember") {
+    accessRate = "Dietary Services and one-on-one interaction with a dietician";
+} else if (personsRole === "subscriberr") {
+    accessRate = "Dietary Services only.";
+} else {
+    accessRate = "enroll or at least subscribe first to avail this facility.";
+
+}
+
+console.log("User Access:", accessRate);
