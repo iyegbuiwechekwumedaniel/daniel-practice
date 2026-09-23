@@ -17,3 +17,9 @@ function checkCountValue() {
         alert("Your Instagram post gained 20 followers! keep it up!");
     }
 }
+
+function resetCount() {
+    count = 0; // Resets counts value to zero
+    displayCount(); // Shows the reset count which is zero
+    alert("Your followers has been reseted, Take a new start, dont give up!");
+}
